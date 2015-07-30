@@ -105,6 +105,7 @@
         // Set the MapViewController instance as the segue's destination view controller.
         MapViewController *mvc = (MapViewController *)segue.destinationViewController;
         
+        // Set the locations array of the MapViewController to the locations array of this class.
         mvc.locations = _locations;
     }
 }
