@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B469D3A91B69CD9A00210BA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3A81B69CD9A00210BA9 /* main.m */; };
+		B469D3AC1B69CD9A00210BA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3AB1B69CD9A00210BA9 /* AppDelegate.m */; };
+		B469D3AF1B69CD9A00210BA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3AE1B69CD9A00210BA9 /* ViewController.m */; };
+		B469D3B21B69CD9A00210BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B469D3B01B69CD9A00210BA9 /* Main.storyboard */; };
+		B469D3B41B69CD9A00210BA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B469D3B31B69CD9A00210BA9 /* Images.xcassets */; };
+		B469D3B71B69CD9A00210BA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B469D3B51B69CD9A00210BA9 /* LaunchScreen.xib */; };
+		B469D3C31B69CD9B00210BA9 /* JPMorganChaseSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3C21B69CD9B00210BA9 /* JPMorganChaseSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B469D3BD1B69CD9B00210BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B469D39B1B69CD9A00210BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B469D3A21B69CD9A00210BA9;
+			remoteInfo = JPMorganChaseSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B469D3A31B69CD9A00210BA9 /* JPMorganChaseSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMorganChaseSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B469D3A71B69CD9A00210BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B469D3A81B69CD9A00210BA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B469D3AA1B69CD9A00210BA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B469D3AB1B69CD9A00210BA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B469D3AD1B69CD9A00210BA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B469D3AE1B69CD9A00210BA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B469D3B11B69CD9A00210BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B469D3B31B69CD9A00210BA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B469D3B61B69CD9A00210BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B469D3BC1B69CD9B00210BA9 /* JPMorganChaseSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChaseSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B469D3C11B69CD9B00210BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B469D3C21B69CD9B00210BA9 /* JPMorganChaseSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPMorganChaseSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B469D3A01B69CD9A00210BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B469D3B91B69CD9B00210BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B469D39A1B69CD9A00210BA9 = {
+			isa = PBXGroup;
+			children = (
+				B469D3A51B69CD9A00210BA9 /* JPMorganChaseSample */,
+				B469D3BF1B69CD9B00210BA9 /* JPMorganChaseSampleTests */,
+				B469D3A41B69CD9A00210BA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B469D3A41B69CD9A00210BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B469D3A31B69CD9A00210BA9 /* JPMorganChaseSample.app */,
+				B469D3BC1B69CD9B00210BA9 /* JPMorganChaseSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B469D3A51B69CD9A00210BA9 /* JPMorganChaseSample */ = {
+			isa = PBXGroup;
+			children = (
+				B469D3AA1B69CD9A00210BA9 /* AppDelegate.h */,
+				B469D3AB1B69CD9A00210BA9 /* AppDelegate.m */,
+				B469D3AD1B69CD9A00210BA9 /* ViewController.h */,
+				B469D3AE1B69CD9A00210BA9 /* ViewController.m */,
+				B469D3B01B69CD9A00210BA9 /* Main.storyboard */,
+				B469D3B31B69CD9A00210BA9 /* Images.xcassets */,
+				B469D3B51B69CD9A00210BA9 /* LaunchScreen.xib */,
+				B469D3A61B69CD9A00210BA9 /* Supporting Files */,
+			);
+			path = JPMorganChaseSample;
+			sourceTree = "<group>";
+		};
+		B469D3A61B69CD9A00210BA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B469D3A71B69CD9A00210BA9 /* Info.plist */,
+				B469D3A81B69CD9A00210BA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B469D3BF1B69CD9B00210BA9 /* JPMorganChaseSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B469D3C21B69CD9B00210BA9 /* JPMorganChaseSampleTests.m */,
+				B469D3C01B69CD9B00210BA9 /* Supporting Files */,
+			);
+			path = JPMorganChaseSampleTests;
+			sourceTree = "<group>";
+		};
+		B469D3C01B69CD9B00210BA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B469D3C11B69CD9B00210BA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B469D3A21B69CD9A00210BA9 /* JPMorganChaseSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B469D3C61B69CD9B00210BA9 /* Build configuration list for PBXNativeTarget "JPMorganChaseSample" */;
+			buildPhases = (
+				B469D39F1B69CD9A00210BA9 /* Sources */,
+				B469D3A01B69CD9A00210BA9 /* Frameworks */,
+				B469D3A11B69CD9A00210BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPMorganChaseSample;
+			productName = JPMorganChaseSample;
+			productReference = B469D3A31B69CD9A00210BA9 /* JPMorganChaseSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B469D3BB1B69CD9B00210BA9 /* JPMorganChaseSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B469D3C91B69CD9B00210BA9 /* Build configuration list for PBXNativeTarget "JPMorganChaseSampleTests" */;
+			buildPhases = (
+				B469D3B81B69CD9B00210BA9 /* Sources */,
+				B469D3B91B69CD9B00210BA9 /* Frameworks */,
+				B469D3BA1B69CD9B00210BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B469D3BE1B69CD9B00210BA9 /* PBXTargetDependency */,
+			);
+			name = JPMorganChaseSampleTests;
+			productName = JPMorganChaseSampleTests;
+			productReference = B469D3BC1B69CD9B00210BA9 /* JPMorganChaseSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B469D39B1B69CD9A00210BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Nutech;
+				TargetAttributes = {
+					B469D3A21B69CD9A00210BA9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					B469D3BB1B69CD9B00210BA9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = B469D3A21B69CD9A00210BA9;
+					};
+				};
+			};
+			buildConfigurationList = B469D39E1B69CD9A00210BA9 /* Build configuration list for PBXProject "JPMorganChaseSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B469D39A1B69CD9A00210BA9;
+			productRefGroup = B469D3A41B69CD9A00210BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B469D3A21B69CD9A00210BA9 /* JPMorganChaseSample */,
+				B469D3BB1B69CD9B00210BA9 /* JPMorganChaseSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B469D3A11B69CD9A00210BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469D3B21B69CD9A00210BA9 /* Main.storyboard in Resources */,
+				B469D3B71B69CD9A00210BA9 /* LaunchScreen.xib in Resources */,
+				B469D3B41B69CD9A00210BA9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B469D3BA1B69CD9B00210BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B469D39F1B69CD9A00210BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469D3AF1B69CD9A00210BA9 /* ViewController.m in Sources */,
+				B469D3AC1B69CD9A00210BA9 /* AppDelegate.m in Sources */,
+				B469D3A91B69CD9A00210BA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B469D3B81B69CD9B00210BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469D3C31B69CD9B00210BA9 /* JPMorganChaseSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B469D3BE1B69CD9B00210BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B469D3A21B69CD9A00210BA9 /* JPMorganChaseSample */;
+			targetProxy = B469D3BD1B69CD9B00210BA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B469D3B01B69CD9A00210BA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B469D3B11B69CD9A00210BA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B469D3B51B69CD9A00210BA9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B469D3B61B69CD9A00210BA9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B469D3C41B69CD9B00210BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B469D3C51B69CD9B00210BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B469D3C71B69CD9B00210BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMorganChaseSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B469D3C81B69CD9B00210BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMorganChaseSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B469D3CA1B69CD9B00210BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JPMorganChaseSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMorganChaseSample.app/JPMorganChaseSample";
+			};
+			name = Debug;
+		};
+		B469D3CB1B69CD9B00210BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JPMorganChaseSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMorganChaseSample.app/JPMorganChaseSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B469D39E1B69CD9A00210BA9 /* Build configuration list for PBXProject "JPMorganChaseSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469D3C41B69CD9B00210BA9 /* Debug */,
+				B469D3C51B69CD9B00210BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B469D3C61B69CD9B00210BA9 /* Build configuration list for PBXNativeTarget "JPMorganChaseSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469D3C71B69CD9B00210BA9 /* Debug */,
+				B469D3C81B69CD9B00210BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B469D3C91B69CD9B00210BA9 /* Build configuration list for PBXNativeTarget "JPMorganChaseSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469D3CA1B69CD9B00210BA9 /* Debug */,
+				B469D3CB1B69CD9B00210BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B469D39B1B69CD9A00210BA9 /* Project object */;
+}
