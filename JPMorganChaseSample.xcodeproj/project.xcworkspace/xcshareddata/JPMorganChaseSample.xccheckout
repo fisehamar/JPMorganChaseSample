@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A018EE83-F75A-4842-83E5-CE3D21EC4558</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JPMorganChaseSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FEDCF85FAB9E0CB6BF0F6EB6085641F71485209D</key>
+		<string>https://github.com/fisehamar/JPMorganChaseSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JPMorganChaseSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FEDCF85FAB9E0CB6BF0F6EB6085641F71485209D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fisehamar/JPMorganChaseSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FEDCF85FAB9E0CB6BF0F6EB6085641F71485209D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FEDCF85FAB9E0CB6BF0F6EB6085641F71485209D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JPMorganChaseSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		B469D3A91B69CD9A00210BA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3A81B69CD9A00210BA9 /* main.m */; };
 		B469D3AC1B69CD9A00210BA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3AB1B69CD9A00210BA9 /* AppDelegate.m */; };
-		B469D3AF1B69CD9A00210BA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3AE1B69CD9A00210BA9 /* ViewController.m */; };
 		B469D3B21B69CD9A00210BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B469D3B01B69CD9A00210BA9 /* Main.storyboard */; };
 		B469D3B41B69CD9A00210BA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B469D3B31B69CD9A00210BA9 /* Images.xcassets */; };
 		B469D3B71B69CD9A00210BA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B469D3B51B69CD9A00210BA9 /* LaunchScreen.xib */; };
 		B469D3C31B69CD9B00210BA9 /* JPMorganChaseSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3C21B69CD9B00210BA9 /* JPMorganChaseSampleTests.m */; };
+		B469D3CE1B69CE2400210BA9 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3CD1B69CE2400210BA9 /* Location.m */; };
+		B469D3D01B69CF4100210BA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B469D3CF1B69CF4100210BA9 /* MapKit.framework */; };
+		B469D3D21B69CF4A00210BA9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B469D3D11B69CF4A00210BA9 /* CoreLocation.framework */; };
+		B469D3D81B69CFF300210BA9 /* ATMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469D3D71B69CFF300210BA9 /* ATMDetailViewController.m */; };
+		B46BD68B1B69D26F00F21139 /* ATMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46BD68A1B69D26F00F21139 /* ATMViewController.m */; };
+		B46BD68E1B69DB4800F21139 /* ATMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B46BD68D1B69DB4800F21139 /* ATMModel.m */; };
+		B495D8CA1B69EEF100DEC4AB /* JPMorganChase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B495D8C91B69EEF100DEC4AB /* JPMorganChase.jpg */; };
+		B495D8CC1B69F11200DEC4AB /* jp_morgan_chase_logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B495D8CB1B69F11200DEC4AB /* jp_morgan_chase_logo.gif */; };
+		B495D8CF1B69FFEF00DEC4AB /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D8CE1B69FFEF00DEC4AB /* MyNavigationController.m */; };
+		B495D8D21B6A018900DEC4AB /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D8D11B6A018900DEC4AB /* MapViewController.m */; };
+		B495D8D41B6A021400DEC4AB /* navigate48.png in Resources */ = {isa = PBXBuildFile; fileRef = B495D8D31B6A021400DEC4AB /* navigate48.png */; };
+		B495D8D71B6A0A1400DEC4AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B495D8D61B6A0A1400DEC4AB /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +43,31 @@
 		B469D3A81B69CD9A00210BA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B469D3AA1B69CD9A00210BA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B469D3AB1B69CD9A00210BA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B469D3AD1B69CD9A00210BA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B469D3AE1B69CD9A00210BA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B469D3B11B69CD9A00210BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B469D3B31B69CD9A00210BA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B469D3B61B69CD9A00210BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B469D3BC1B69CD9B00210BA9 /* JPMorganChaseSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChaseSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B469D3C11B69CD9B00210BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B469D3C21B69CD9B00210BA9 /* JPMorganChaseSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPMorganChaseSampleTests.m; sourceTree = "<group>"; };
+		B469D3CC1B69CE2400210BA9 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		B469D3CD1B69CE2400210BA9 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		B469D3CF1B69CF4100210BA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B469D3D11B69CF4A00210BA9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B469D3D61B69CFF300210BA9 /* ATMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMDetailViewController.h; sourceTree = "<group>"; };
+		B469D3D71B69CFF300210BA9 /* ATMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMDetailViewController.m; sourceTree = "<group>"; };
+		B46BD6891B69D26F00F21139 /* ATMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMViewController.h; sourceTree = "<group>"; };
+		B46BD68A1B69D26F00F21139 /* ATMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMViewController.m; sourceTree = "<group>"; };
+		B46BD68C1B69DB4800F21139 /* ATMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMModel.h; sourceTree = "<group>"; };
+		B46BD68D1B69DB4800F21139 /* ATMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMModel.m; sourceTree = "<group>"; };
+		B495D8C91B69EEF100DEC4AB /* JPMorganChase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JPMorganChase.jpg; sourceTree = "<group>"; };
+		B495D8CB1B69F11200DEC4AB /* jp_morgan_chase_logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jp_morgan_chase_logo.gif; sourceTree = "<group>"; };
+		B495D8CD1B69FFEF00DEC4AB /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		B495D8CE1B69FFEF00DEC4AB /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		B495D8D01B6A018900DEC4AB /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B495D8D11B6A018900DEC4AB /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		B495D8D31B6A021400DEC4AB /* navigate48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigate48.png; sourceTree = "<group>"; };
+		B495D8D51B6A0A1400DEC4AB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B495D8D61B6A0A1400DEC4AB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B469D3D21B69CF4A00210BA9 /* CoreLocation.framework in Frameworks */,
+				B469D3D01B69CF4100210BA9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +93,8 @@
 		B469D39A1B69CD9A00210BA9 = {
 			isa = PBXGroup;
 			children = (
+				B469D3D11B69CF4A00210BA9 /* CoreLocation.framework */,
+				B469D3CF1B69CF4100210BA9 /* MapKit.framework */,
 				B469D3A51B69CD9A00210BA9 /* JPMorganChaseSample */,
 				B469D3BF1B69CD9B00210BA9 /* JPMorganChaseSampleTests */,
 				B469D3A41B69CD9A00210BA9 /* Products */,
@@ -83,8 +115,10 @@
 			children = (
 				B469D3AA1B69CD9A00210BA9 /* AppDelegate.h */,
 				B469D3AB1B69CD9A00210BA9 /* AppDelegate.m */,
-				B469D3AD1B69CD9A00210BA9 /* ViewController.h */,
-				B469D3AE1B69CD9A00210BA9 /* ViewController.m */,
+				B495D8D81B6A0A2100DEC4AB /* MBProgressHud */,
+				B495D8DB1B6A0A5800DEC4AB /* CustomNavigationController */,
+				B495D8D91B6A0A3000DEC4AB /* Models */,
+				B495D8DA1B6A0A3F00DEC4AB /* View Controllers */,
 				B469D3B01B69CD9A00210BA9 /* Main.storyboard */,
 				B469D3B31B69CD9A00210BA9 /* Images.xcassets */,
 				B469D3B51B69CD9A00210BA9 /* LaunchScreen.xib */,
@@ -96,6 +130,9 @@
 		B469D3A61B69CD9A00210BA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B495D8D31B6A021400DEC4AB /* navigate48.png */,
+				B495D8CB1B69F11200DEC4AB /* jp_morgan_chase_logo.gif */,
+				B495D8C91B69EEF100DEC4AB /* JPMorganChase.jpg */,
 				B469D3A71B69CD9A00210BA9 /* Info.plist */,
 				B469D3A81B69CD9A00210BA9 /* main.m */,
 			);
@@ -117,6 +154,48 @@
 				B469D3C11B69CD9B00210BA9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B495D8D81B6A0A2100DEC4AB /* MBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				B495D8D51B6A0A1400DEC4AB /* MBProgressHUD.h */,
+				B495D8D61B6A0A1400DEC4AB /* MBProgressHUD.m */,
+			);
+			name = MBProgressHud;
+			sourceTree = "<group>";
+		};
+		B495D8D91B6A0A3000DEC4AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B469D3CC1B69CE2400210BA9 /* Location.h */,
+				B469D3CD1B69CE2400210BA9 /* Location.m */,
+				B46BD68C1B69DB4800F21139 /* ATMModel.h */,
+				B46BD68D1B69DB4800F21139 /* ATMModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B495D8DA1B6A0A3F00DEC4AB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B46BD6891B69D26F00F21139 /* ATMViewController.h */,
+				B46BD68A1B69D26F00F21139 /* ATMViewController.m */,
+				B469D3D61B69CFF300210BA9 /* ATMDetailViewController.h */,
+				B469D3D71B69CFF300210BA9 /* ATMDetailViewController.m */,
+				B495D8D01B6A018900DEC4AB /* MapViewController.h */,
+				B495D8D11B6A018900DEC4AB /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B495D8DB1B6A0A5800DEC4AB /* CustomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B495D8CD1B69FFEF00DEC4AB /* MyNavigationController.h */,
+				B495D8CE1B69FFEF00DEC4AB /* MyNavigationController.m */,
+			);
+			name = CustomNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B469D3B21B69CD9A00210BA9 /* Main.storyboard in Resources */,
+				B495D8CC1B69F11200DEC4AB /* jp_morgan_chase_logo.gif in Resources */,
+				B495D8D41B6A021400DEC4AB /* navigate48.png in Resources */,
 				B469D3B71B69CD9A00210BA9 /* LaunchScreen.xib in Resources */,
+				B495D8CA1B69EEF100DEC4AB /* JPMorganChase.jpg in Resources */,
 				B469D3B41B69CD9A00210BA9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B469D3AF1B69CD9A00210BA9 /* ViewController.m in Sources */,
+				B46BD68B1B69D26F00F21139 /* ATMViewController.m in Sources */,
+				B495D8CF1B69FFEF00DEC4AB /* MyNavigationController.m in Sources */,
+				B46BD68E1B69DB4800F21139 /* ATMModel.m in Sources */,
+				B495D8D21B6A018900DEC4AB /* MapViewController.m in Sources */,
+				B495D8D71B6A0A1400DEC4AB /* MBProgressHUD.m in Sources */,
 				B469D3AC1B69CD9A00210BA9 /* AppDelegate.m in Sources */,
 				B469D3A91B69CD9A00210BA9 /* main.m in Sources */,
+				B469D3D81B69CFF300210BA9 /* ATMDetailViewController.m in Sources */,
+				B469D3CE1B69CE2400210BA9 /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +504,7 @@
 				B469D3C81B69CD9B00210BA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B469D3C91B69CD9B00210BA9 /* Build configuration list for PBXNativeTarget "JPMorganChaseSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +513,7 @@
 				B469D3CB1B69CD9B00210BA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
