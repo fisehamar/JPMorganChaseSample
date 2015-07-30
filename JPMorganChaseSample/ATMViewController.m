@@ -102,6 +102,7 @@
     
     else if([segue.destinationViewController isKindOfClass:[MapViewController class]])
     {
+        // Set the MapViewController instance as the segue's destination view controller.
         MapViewController *mvc = (MapViewController *)segue.destinationViewController;
         
         mvc.locations = _locations;
